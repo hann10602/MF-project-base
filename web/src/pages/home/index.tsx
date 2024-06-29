@@ -1,17 +1,12 @@
-import { RouteObject } from "react-router-dom";
-import { Policy } from "./policy";
-import { MainLayout } from "../../components";
 import React from "react";
+import { RouteObject } from "react-router-dom";
+import { MainLayout } from "../../components";
 import { TermOfService } from "./term-of-service";
 
 export const routesHome: RouteObject[] = [
     {
-        path: "policy",
-        element: (
-            <MainLayout>
-                <Policy />
-            </MainLayout>
-        )
+        path: "/asd/policy",
+        element: <MainLayout>divadasd</MainLayout>
     },
     {
         path: "term-of-service",
@@ -26,3 +21,4 @@ export const routesHome: RouteObject[] = [
 export * from "./landing-page";
 export * from "./policy";
 export * from "./term-of-service";
+export * from "./profile";
