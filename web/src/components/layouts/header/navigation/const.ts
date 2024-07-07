@@ -1,14 +1,18 @@
 export const NAV_ITEMS = [
     {
-        title: "Nav 1",
-        to: "/nav-1"
+        title: "Man",
+        to: "/man"
     },
     {
-        title: "Nav 2",
-        to: "/nav-2"
+        title: "Woman",
+        to: "/woman"
     },
     {
-        title: "Nav 3",
-        to: "/nav-3"
+        title: "Boy",
+        to: "/boy"
+    },
+    {
+        title: "Girl",
+        to: "/girl"
     }
 ];
